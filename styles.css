@@ -1,0 +1,155 @@
+body{
+  background-color: black;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+}
+
+h4{
+  color: #E60012;
+  text-align: center;
+}
+text{
+  color: white;
+}
+
+input{
+  padding: 5px;
+  width: 100%;
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: #666666;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #000000;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 10;
+  padding-bottom: 15px;
+}
+
+
+hr{
+  width: 75%;
+  color: #E9E9E9;
+  height: auto;
+  background-color: #E9E9E9;
+}
+
+.navrow{
+  width: 100%; /* damit Navbar komplett ausgefüllt wird*/
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.icon{
+  text-align: center;
+}
+
+.icon:hover{
+  fill: #FFFFFF;
+}
+
+.container-fluid{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.container{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.values{
+  padding-bottom: 15px
+}
+
+.valuestext{
+  font-weight: 100;
+}
+
+.Newsletterbg{
+  background-color: #FFFFFF;
+}
+
+.Newsletter{
+  background-color: #FFFFFF;
+  color: #444444;
+  text-align: left;
+  padding: 30px;
+}
+
+.btn{
+  background-color: #444444;
+  width: 100%;
+  font-weight: 700;
+  border: none;
+}
+
+.btn:hover{
+  background-color: #E60012;
+}
+
+.buybtn{
+  border-radius: 0em 0em 1em 1em;
+  margin-bottom: 20px;
+}
+
+
+.btn:focus{
+  background-color: #E60012;
+}
+
+.footer{
+  background-color: #552727;
+}
+
+.text-footer{
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.sponsor img{
+  width: 100%;
+  height: auto;
+}
+
+
+
+.banner img{
+  width: 100%;
+  height: auto;
+  margin-top: 60px;
+}
+
+@media (min-width: 768px) {
+  .banner img{
+    margin-top: 85px;
+  }
+}
+
+
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #E4221B; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px 17px 10px 17px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  font-weight: 700;
+}
+
+#myBtn:hover {
+  background-color: #7B0D15; /* Add a dark-grey background on hover */
+}
